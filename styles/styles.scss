@@ -1,0 +1,80 @@
+// Variables
+//colors
+$primary-soft-blue: hsl(215, 51%, 70%);
+$primary-cyan: hsl(178, 100%, 50%);
+$dark-blue: hsl(217, 54%, 11%); // (main BG)
+$secondary-dark-blue: hsl(215, 32%, 27%); //  (line)
+$white: hsl(0, 0%, 100%);
+
+// typography
+$font-family-primary: "Outfit", sans-serif;
+
+/*
+  Josh's Custom CSS Reset
+  https://www.joshwcomeau.com/css/custom-css-reset/
+*/
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+* {
+	margin: 0;
+}
+html,
+body {
+	height: 100%;
+}
+body {
+	line-height: 1.5;
+	-webkit-font-smoothing: antialiased;
+}
+img,
+picture,
+video,
+canvas,
+svg {
+	display: block;
+	max-width: 100%;
+}
+input,
+button,
+textarea,
+select {
+	font: inherit;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	overflow-wrap: break-word;
+}
+#root,
+#__next {
+	isolation: isolate;
+}
+
+.attribution {
+	font-size: 11px;
+	text-align: center;
+}
+
+// layout styles
+body {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	font-family: $font-family-primary;
+	padding: 2.2rem;
+	background-color: $dark-blue;
+	background-image: url(/images/bg-mobile.svg);
+	background-repeat: no-repeat;
+	color: white;
+}
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}
