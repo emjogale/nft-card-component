@@ -91,6 +91,10 @@ body {
 		display: block;
 	}
 
+	&-header img {
+		border-radius: 0.75rem;
+	}
+
 	&-title {
 		font-size: $size-large;
 		padding-top: 1.5rem;
@@ -162,6 +166,7 @@ a:hover {
 
 .item-header a:before {
 	background-color: $primary-cyan;
+	border-radius: 0.75rem;
 }
 
 .item-header a:after {
@@ -176,11 +181,9 @@ a:hover {
 .item-header a:hover:before {
 	opacity: 0.5;
 }
+
 // footer attribution styles
 .attribution {
 	padding-top: 1rem;
 	color: $white;
 }
-// .attribution a {
-// 	// color: $white;
-// }
