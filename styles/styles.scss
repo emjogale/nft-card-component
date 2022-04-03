@@ -147,13 +147,17 @@ a {
 	cursor: pointer;
 }
 
+a:hover {
+	color: $primary-cyan;
+}
+
 .item-header a:after,
 .item-header a:before {
 	content: "";
 	position: absolute;
 	width: 100%;
 	height: 100%;
-	opacity: 0.5;
+	opacity: 0;
 }
 
 .item-header a:before {
@@ -163,6 +167,14 @@ a {
 .item-header a:after {
 	background: url(/images/icon-view.svg) center no-repeat;
 	top: 0;
+}
+
+.item-header a:hover:after {
+	opacity: 1;
+}
+
+.item-header a:hover:before {
+	opacity: 0.5;
 }
 // footer attribution styles
 .attribution {
