@@ -97,7 +97,7 @@ body {
 
 	&-title {
 		font-size: $size-large;
-		padding-top: 1.5rem;
+		padding: 1.5rem 0 1rem 0;
 	}
 
 	&-stats,
@@ -129,7 +129,7 @@ body {
 	}
 
 	&-creator {
-		padding-top: 1rem;
+		padding-top: 0.5rem;
 	}
 
 	&-creator img {
