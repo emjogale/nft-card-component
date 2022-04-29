@@ -166,8 +166,8 @@ a:hover {
   width: 100%;
   height: 100%;
   opacity: 0;
-  -webkit-transition: opacity 0.5s;
-  transition: opacity 0.5s;
+  -webkit-transition: opacity 1s;
+  transition: opacity 1s;
 }
 
 .item-header a:before {
@@ -176,7 +176,7 @@ a:hover {
 }
 
 .item-header a:after {
-  background: url(/images/icon-view.svg) center no-repeat;
+  background: url(./../images/icon-view.svg) center no-repeat;
   top: 0;
 }
 
